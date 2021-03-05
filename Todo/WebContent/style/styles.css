@@ -1,0 +1,71 @@
+@charset "ISO-8859-1";
+
+body {
+  background-color: AntiqueWhite;
+}
+th, td {
+  padding: 5px;
+}
+a:link, a:visited {
+  background-color: #e6e1d9;
+  border: 1px solid #000000;
+  color: #000000;
+  padding: 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover, a:active {
+  background-color: #cdc4b4;
+}
+
+.botton {
+  padding: 1px;
+  background-color: AntiqueWhite;
+}
+
+
+h1 {
+  color: rgb(255, 0, 0);
+  text-align: center;
+  border: 1px solid green;
+}
+h2 {
+  color: blue;
+  text-align: center;
+  border: 3px solid #ff8080;
+}
+
+table {
+  border: 1px solid black;
+  table-layout: fixed;
+  table-layout: auto;
+  width: 800px;  
+}
+#todoImage
+{
+   display: block;
+   margin-left: auto;
+   margin-right: auto
+}
+#itemTitleError{
+	 color: red;
+}
+.tdList{
+padding-left: 10px;
+padding-right: 10px;
+	
+}
+
+tr.BgTrWhite td {
+   	  background-color: #FFFFFF;
+}
+HeadTxt th{
+  color: blue;
+  text-align: center;
+  border: 3px ;
+	
+}
+textarea, input { 
+	font-family: Helvetica, Arial, sans-serif; 
+}
