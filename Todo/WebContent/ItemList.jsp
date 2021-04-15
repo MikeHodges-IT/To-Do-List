@@ -5,6 +5,10 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+
 <title>To-do List</title>
 <link rel="stylesheet" href="style/styles.css">
 </head>
@@ -16,10 +20,10 @@
 					alt=" TO DO ! " width="200" height="100"></td>
 			</tr>
 			<tr class = "HeadTxt"> 
-			 <td colspan="2"><a href="new">Add New Item</a></td><td colspan="2"> </td> 
+			 <td colspan="2"><a href="new">Add New Item </a></td><td colspan="2"> </td> 
 			</tr>
 			<tr class = "HeadTxt"> 
-				<th >To Do Item Name</th><th>Details</th><th>Completed</th><th>Action</th> 
+				<th >To Do Item Name</th><th>Description </th><th>Completed</th><th>Action</th> 
 			</tr>
 		<c:forEach items="${todolist}" var="tdl">
 			<tr >

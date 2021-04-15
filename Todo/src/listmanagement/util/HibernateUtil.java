@@ -12,7 +12,7 @@ import listmanagement.model.TodoItem;
 public class HibernateUtil {
 	private static SessionFactory sessionFactory;
 
-	public static SessionFactory getSessionFactory() {
+	public static  SessionFactory getSessionFactory() {
 		if (sessionFactory == null) {
 			try {
 				Configuration configuration = new Configuration();

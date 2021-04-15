@@ -19,7 +19,7 @@ import javassist.SerialVersionUID;
  */
 @Entity
 @Table(name = "todoitems")
-public class TodoItem implements Serializable{
+public class TodoItem  implements Serializable{
 	/**
 	 * 
 	 */

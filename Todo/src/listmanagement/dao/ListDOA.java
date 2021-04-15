@@ -10,7 +10,7 @@ public class ListDOA {
      * Save todoItem
      * @param todoItem
      */
-    public void saveTodoItem(TodoItem todoItem) {
+    public void  saveTodoItem(TodoItem todoItem) {
         Transaction transaction = null;
         try (Session session = HibernateUtil.getSessionFactory().openSession()) {
             // start a transaction
