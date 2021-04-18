@@ -7,6 +7,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.xml.bind.annotation.XmlRootElement;
 
 import javassist.SerialVersionUID;
 /**
@@ -19,6 +20,7 @@ import javassist.SerialVersionUID;
  */
 @Entity
 @Table(name = "todoitems")
+@XmlRootElement 
 public class TodoItem  implements Serializable{
 	/**
 	 * 
