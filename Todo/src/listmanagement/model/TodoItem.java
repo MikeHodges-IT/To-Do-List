@@ -7,9 +7,6 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import javax.xml.bind.annotation.XmlRootElement;
-
-import javassist.SerialVersionUID;
 /**
  * @author Mike Hodges
  * 
@@ -20,7 +17,6 @@ import javassist.SerialVersionUID;
  */
 @Entity
 @Table(name = "todoitems")
-@XmlRootElement 
 public class TodoItem  implements Serializable{
 	/**
 	 * 
@@ -97,13 +93,13 @@ public class TodoItem  implements Serializable{
 	/**
 	 * @return the itemTitle
 	 */
-	public String getItemTitle() {
+ 	public String getItemTitle() {
 		return itemTitle;
 	}
 
 	/**
 	 * @param itemTitle the itemTitle to set
-	 */
+	 */ 
 	public void setItemTitle(String itemTitle) {
 		this.itemTitle = itemTitle;
 	}
@@ -117,7 +113,7 @@ public class TodoItem  implements Serializable{
 
 	/**
 	 * @param itemDetails the itemDetails to set
-	 */
+	 */ 
 	public void setItemDetails(String itemDetails) {
 		this.itemDetails = itemDetails;
 	}
